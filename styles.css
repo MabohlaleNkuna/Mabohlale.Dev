@@ -176,3 +176,202 @@ body {
     font-size: 2rem;
   }
 }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+#contact {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+}
+
+#contact h2 {
+  font-size: 2.8rem;
+  color: #004aad;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s ease;
+}
+
+.intro-text {
+  color: #6c757d;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  animation: fadeInUp 1.2s ease;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s ease;
+  animation: zoomIn 0.8s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.green-icon img {
+  filter: invert(37%) sepia(82%) saturate(542%) hue-rotate(86deg) brightness(96%) contrast(95%);
+}
+
+.blue-icon img {
+  filter: invert(25%) sepia(89%) saturate(1512%) hue-rotate(200deg) brightness(97%) contrast(104%);
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.muted {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #198754;
+  color: white;
+}
+
+.green:hover {
+  background-color: #157347;
+}
+
+.blue {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.blue:hover {
+  background-color: #0a58ca;
+}
+
+.dark {
+  background-color: #212529;
+  color: white;
+}
+
+.dark:hover {
+  background-color: #121416;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  resize: none;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
