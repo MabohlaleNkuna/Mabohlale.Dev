@@ -29,8 +29,9 @@
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-  background-color: #1e3551;
+  background: linear-gradient(135deg, #004AAD, #1a3547, #0a3857); /* Blueish gradient */
 }
+
 
 .about-me {
   width: 100%;
