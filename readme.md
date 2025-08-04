@@ -5,6 +5,8 @@
 This project is a **responsive personal portfolio website** built with HTML, CSS, and some external icon libraries. It showcases various sections such as About, Education, Programming Languages, Projects, and Contact, all within a single-page layout with smooth navigation.
 
 ---
+### Hosted link
+https://mabohlale.netlify.app/
 
 ## Project Structure
 
